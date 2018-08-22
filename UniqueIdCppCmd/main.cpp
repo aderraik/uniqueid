@@ -20,8 +20,9 @@ int main(const int argc, char *args[])
 		const auto id = new unique_id(args[1]);
 		std::cout << "Id 32bits: " << id->get_id();
 #ifdef USE_64
-		std::cout << "Id 64bits: " << id->get_id64();
+		std::cout << " 64bits: " << id->get_id64();
 #endif
+		std::cout << std::endl;
 
 		delete id;
 	}
