@@ -403,5 +403,7 @@ ASALocalRun/
 # Local History for Visual Studio
 .localhistory/
 
+# Removing Unix exec file
+UniqueIdCppCmd/UniqueIdCppCmd
 
 # End of https://www.gitignore.io/api/c,c++,visualstudio
