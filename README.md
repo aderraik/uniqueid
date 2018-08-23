@@ -11,7 +11,7 @@ The project has a C# and C++ library and command line program.
 
 ## Example of usage
 
-### C#
+### C-Sharp
 
 ```c#
 // Generate the id
@@ -37,8 +37,9 @@ try
     const auto id = new unique_id(args[1]);
     std::cout << "Id 32bits: " << id->get_id();
 #ifdef USE_64
-	std::cout << "Id 64bits: " << id->get_id64();
+	std::cout << " 64bits: " << id->get_id64();
 #endif
+    std::cout << std::endln;
 	delete id;
 }
 catch (std::exception& exception)
