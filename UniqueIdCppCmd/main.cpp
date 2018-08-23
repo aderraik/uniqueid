@@ -2,7 +2,7 @@
 
 static void usage(const char* prog)
 {
-	std::cout << "Usage: " << prog << " <string>";
+	std::cout << "Usage: " << prog << " <string>" << std::endl;
 }
 
 int main(const int argc, char *args[])
