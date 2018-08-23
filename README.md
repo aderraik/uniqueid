@@ -3,8 +3,11 @@
 A simple library to create an unique integer (32 and 64 bits) from a string.
 
 ```
-$ .\UniqueIdCmd.exe  test
+$ ./UniqueIdCmd.exe  test
 Id 32bits: 160394189 64bits: 688887797400064883
+$ ./UniqueIdCmd.exe Test
+Id 32bits: 213673489 64bits: 917720651393141712
+
 ```
 
 The project has a C# and C++ library and command line program.
