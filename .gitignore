@@ -1,5 +1,77 @@
+# Created by https://www.gitignore.io/api/c,c++,visualstudio
 
-# Created by https://www.gitignore.io/api/visualstudio
+### C ###
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+### C++ ###
+# Prerequisites
+
+# Compiled Object files
+*.slo
+
+# Precompiled Headers
+
+# Compiled Dynamic libraries
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+
+# Executables
 
 ### VisualStudio ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -64,12 +136,8 @@ StyleCopReport.xml
 *_i.c
 *_p.c
 *_i.h
-*.ilk
 *.meta
-*.obj
 *.iobj
-*.pch
-*.pdb
 *.ipdb
 *.pgc
 *.pgd
@@ -335,5 +403,7 @@ ASALocalRun/
 # Local History for Visual Studio
 .localhistory/
 
+# Removing Unix exec file
+UniqueIdCppCmd/UniqueIdCppCmd
 
-# End of https://www.gitignore.io/api/visualstudio
+# End of https://www.gitignore.io/api/c,c++,visualstudio
