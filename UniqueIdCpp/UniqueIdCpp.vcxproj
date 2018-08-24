@@ -65,12 +65,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bindc.cpp" />
     <ClCompile Include="md5.cpp" />
     <ClCompile Include="UniqueId.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="md5.h" />
     <ClInclude Include="UniqueId.h" />
+    <ClInclude Include="unique_id.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
