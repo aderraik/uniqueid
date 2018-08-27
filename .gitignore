@@ -406,4 +406,7 @@ ASALocalRun/
 # Removing Unix exec file
 UniqueIdCppCmd/UniqueIdCppCmd
 
+# Vi swap
+*.swp
+
 # End of https://www.gitignore.io/api/c,c++,visualstudio
