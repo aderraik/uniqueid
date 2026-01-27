@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uniqueid"
+version = "1.0.0"
+description = "Create a unique 32- or 64-bit integer from a string via MD5(ASCII(s))."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.scripts]
+uniqueid = "uniqueid.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["uniqueid*"]
